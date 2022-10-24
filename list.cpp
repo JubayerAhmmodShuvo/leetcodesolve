@@ -12,9 +12,13 @@ int main() {
    mylist.push_back(111);
    mylist.push_front(1111);
 
+   mylist.reverse();
+   cout<< "size of mylist " << mylist.size() << endl;
+
     for(it=mylist.begin(); it!=mylist.end();it++){
       cout<<*it <<endl;
     }
+    
 
     return 0;
 }
