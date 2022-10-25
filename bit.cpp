@@ -3,8 +3,10 @@
 using namespace std;
  
 int main() {
+  int x;
+  cin >> x;
  
-    cout << sqrt(25);
+    cout << sqrt(x);
     return 0;
 }
  
