@@ -1,3 +1,2 @@
-let foo=22;
-foo = 'hello';
-foo = true;
+var x = 4 + '4';
+console.log(x); // 44
