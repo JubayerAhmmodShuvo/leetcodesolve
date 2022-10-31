@@ -21,7 +21,7 @@ public:
                 j--;
             }
             else{
-                return isPalindrome (s, i+1, j) || (s,i,j-1);
+                return isPalindrome (s, i+1, j) || isPalindrome (s,i,j-1);
             }
         }
         return true;
