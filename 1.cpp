@@ -2,7 +2,6 @@
   
 int main()  
 {  
-
   int N;
   printf("Enter a number : ",N);
   scanf("%d",&N);
@@ -20,6 +19,7 @@ int main()
     scanf("%d", &dir);  
   
     while(pos)  
+    
     {  
         if(dir)  
         {  
